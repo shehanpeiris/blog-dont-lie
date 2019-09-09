@@ -3,14 +3,14 @@ import React from "react";
 class Navbar extends React.Component {
   render() {
     return (
-      <nav>
-        <div className="navbar">
-          <a href="#">Home</a>
-          <a href="#">Articles</a>
-          <a href="#">Useful Resources</a>
-          <a href="#">Pod Don't Lie</a>
-          <a href="#">About</a>
-        </div>
+      <nav className="navbar">
+        <ul className="nav"> 
+          <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="#"><i class="fas fa-pen-fancy"></i> Articles</a></li>
+          <li><a href="#"><i class="fas fa-toolbox"></i> Useful Resources</a></li>
+          <li><a href="#"><i class="fas fa-headphones"></i> Pod Don't Lie</a></li>
+          <li><a href="#"><i class="fas fa-basketball-ball"></i> About</a></li>
+        </ul>
         {/* Narrow Nav for mobile screen */}
         {/* <div className="navNarrow">
           <i className="fa fa-bars fa-2x"></i>
