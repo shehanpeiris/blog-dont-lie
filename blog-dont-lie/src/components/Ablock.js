@@ -7,8 +7,8 @@ class Ablock extends React.Component {
       <div className="a-block">
         <img className="a-block-image" src={Virgil} alt="Virgil"></img>
         <section className="a-block-text">
-          <h3>Headline</h3>
-          <p>Summary of the article goes here because it's going to be dope as fuck.</p>
+          <h1>The Brilliance of Virgil van Dijk</h1>
+          <p>Calm as you like, he's Virgil van Dijk. The centre-back has emerged as one of the world's best with all-around brilliance that anchors the Liverpool defense.</p>
         </section>
       </div>
     )

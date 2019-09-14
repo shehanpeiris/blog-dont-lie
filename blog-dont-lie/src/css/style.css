@@ -6,12 +6,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: auto;
+  background-color: blanchedalmond;
 }
 
-.clearfix {
-  clear: both;
-}
-
+/* 
 .App {
   text-align: center;
 }
@@ -25,6 +23,10 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+} */
+
+.banner-image {
+  height: 15vh;
 }
 
 /* Navbar Styling */
@@ -93,16 +95,31 @@ body {
 /* A-Block CSS */
 /* =========================== */
 .a-block {
-  width: 80%;
-  margin: 35px auto;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
   align-content: center;
 }
 
+.a-block:hover {
+  background-color: #333333;
+}
+
 .a-block-image {
-  width: 200px;
-  float: left;
+  max-width: 33%;
+  width: auto;
+  height: auto;
+  border: 10px solid #333333;
+  border-radius: 40px;
+  margin: 0 40px;
 }
 
 .a-block-text {
-  float: left;
+  width: 33%;
+  /* margin-top: 40px; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
 }

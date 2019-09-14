@@ -4,7 +4,7 @@ import banner from "./images/header.png";
 class Header extends React.Component {
   render() {
     return (
-      <img src={banner} />
+      <img className="banner-image" src={banner} />
     )
   };
 };

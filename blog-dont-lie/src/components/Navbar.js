@@ -5,7 +5,7 @@ class Navbar extends React.Component {
     return (
       <nav className="navbar">
         <ul className="nav"> 
-          <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
           <li><a href="#"><i class="fas fa-pen-fancy"></i> Articles</a></li>
           <li><a href="#"><i class="fas fa-toolbox"></i> Useful Resources</a></li>
           <li><a href="#"><i class="fas fa-headphones"></i> Pod Don't Lie</a></li>
