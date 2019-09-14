@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: auto;
+}
+
+.clearfix {
+  clear: both;
 }
 
 .App {
@@ -31,7 +36,7 @@ body {
   padding:0;
   text-align:center;
   background-color: yellow;
-  font-size: 22px;
+  font-size: 20px;
 }
 .nav li{
   display:inline;
@@ -83,4 +88,21 @@ body {
 .navbar a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+/* A-Block CSS */
+/* =========================== */
+.a-block {
+  width: 80%;
+  margin: 35px auto;
+  align-content: center;
+}
+
+.a-block-image {
+  width: 200px;
+  float: left;
+}
+
+.a-block-text {
+  float: left;
 }
