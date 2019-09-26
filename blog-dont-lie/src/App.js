@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Ablock from "./components/Ablock";
+import Card from "./components/Card";
 
 class App extends React.Component {
   
@@ -11,6 +12,13 @@ class App extends React.Component {
         <Header />
         <Navbar />
         <Ablock />
+        <div className="card-wrapper">
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+          <Card />
+        </div>
       </div>
     );
   }

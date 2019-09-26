@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: auto;
-  background-color: blanchedalmond;
+  background-color: #ecfcff;
 }
 
 /* 
@@ -31,23 +31,25 @@ body {
 
 /* Navbar Styling */
 .nav{
-  border:1px solid #ccc;
+  border:1px solid #f7be16;
   border-width:1px 0;
   list-style:none;
   margin:0;
   padding:0;
   text-align:center;
-  background-color: yellow;
+  background-color: #293462;
+  color: #293462;
   font-size: 20px;
 }
 .nav li{
   display:inline;
-  border-right: 1px solid red;
+  border-right: 1px solid #293462;
 }
 .nav a{
   display:inline-block;
   padding: 15px 35px;
   text-decoration: none;
+  color: #f7be16;
 }
 
 
@@ -82,7 +84,7 @@ body {
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  background-color: purple;
+  background-color: #00818a;
   color: black;
 }
 
@@ -106,7 +108,7 @@ body {
 }
 
 .a-block-image {
-  max-width: 33%;
+  max-width: 45%;
   width: auto;
   height: auto;
   border: 10px solid #333333;
@@ -123,3 +125,70 @@ body {
   justify-content: center;
   font-size: 18px;
 }
+
+/* Article Cards CSS */
+/* =========================== */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-top: 50px;
+  width: 30%;
+  padding: 10px;
+  position: relative;
+}
+
+.card:hover {
+  background-color: #333333;
+}
+
+.card-image {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  border: 5px solid #333333;
+  border-radius: 40px;
+  filter: brightness(60%);
+}
+
+.card-hed {
+  position: absolute;
+  bottom: 10%;
+  right: 20%;
+  color: #f7be16;
+  text-align: center;
+}
+
+/* .a-block {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.a-block:hover {
+  background-color: #333333;
+}
+
+.a-block-image {
+  max-width: 33%;
+  width: auto;
+  height: auto;
+  border: 10px solid #333333;
+  border-radius: 40px;
+  margin: 0 40px;
+}
+
+.a-block-text {
+  width: 33%;
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+} */
