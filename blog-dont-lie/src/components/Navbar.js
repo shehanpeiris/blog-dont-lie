@@ -5,11 +5,11 @@ class Navbar extends React.Component {
     return (
       <nav className="navbar">
         <ul className="nav"> 
-          <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
-          <li><a href="#"><i class="fas fa-pen-fancy"></i> Articles</a></li>
-          <li><a href="#"><i class="fas fa-toolbox"></i> Useful Resources</a></li>
-          <li><a href="#"><i class="fas fa-headphones"></i> Pod Don't Lie</a></li>
-          <li><a href="#"><i class="fas fa-basketball-ball"></i> About</a></li>
+          <li><a href="/"><i className="fas fa-home"></i> Home</a></li>
+          <li><a href="#"><i className="fas fa-pen-fancy"></i> Articles</a></li>
+          <li><a href="#"><i className="fas fa-toolbox"></i> Useful Resources</a></li>
+          <li><a href="#"><i className="fas fa-headphones"></i> Pod Don't Lie</a></li>
+          <li><a href="#"><i className="fas fa-basketball-ball"></i> About</a></li>
         </ul>
         {/* Narrow Nav for mobile screen */}
         {/* <div className="navNarrow">
