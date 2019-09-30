@@ -11,9 +11,10 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    this.ref = base.syncState("blog-dont-lie-test", {
+    base.bindToState("posts", {
       context: this,
-      state: "posts"
+      state: "posts",
+      asArray: true
     });
   };
 
