@@ -25,12 +25,13 @@ class App extends React.Component {
         <Navbar />
         <Ablock />
         <div className="card-wrapper">
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+          {Object.keys(this.state.posts).map(key => (
+            <Card
+              key={key}
+              image={this.state.posts[key].image}
+              headline={this.state.posts[key].headline}
+            />
+          ))}
         </div>
       </div>
     );

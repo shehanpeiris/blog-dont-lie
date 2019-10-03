@@ -140,6 +140,7 @@ body {
   width: 27%;
   padding: 2em;
   position: relative;
+  display: flex;
 }
 
 .card:hover {
@@ -147,18 +148,21 @@ body {
 }
 
 .card-image {
-  max-width: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
   border: 5px solid #333333;
   border-radius: 40px;
   filter: brightness(60%);
+  overflow: hidden;
+  background-size: cover;
 }
 
 .card-hed {
   position: absolute;
+  top: 50%;
   bottom: 10%;
   right: 20%;
+  left: 20%;
   color: #f7be16;
   text-align: center;
 }
