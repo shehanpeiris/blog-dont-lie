@@ -7,29 +7,41 @@ import base from "./base";
 
 class App extends React.Component {
   state = {
-    posts: {}
+    posts: {},
+    cards: {},
+    ablock: {}
   };
 
   componentDidMount() {
-    base.bindToState("posts", {
-      context: this,
-      state: "posts",
-      asArray: true
-    });
+    this.getPosts();
   };
+
+  getPosts() {
+    base.fetch("posts", {
+      asArray: true
+    })
+    .then(data => {
+      const postArr = data.reverse();
+      console.log(postArr);
+      this.setState({ablock: postArr[0]})
+      this.setState({cards: postArr.slice(1)});
+      
+      // this.setState({posts: data.reverse()})
+    } // Used arrow function to access state
+  )};
 
   render() {
     return (
       <div className="App">
         <Header />
         <Navbar />
-        <Ablock />
+        <Ablock image={this.state.ablock.image} headline={this.state.ablock.headline} />
         <div className="card-wrapper">
-          {Object.keys(this.state.posts).map(key => (
+          {Object.keys(this.state.cards).map(key => (
             <Card
               key={key}
-              image={this.state.posts[key].image}
-              headline={this.state.posts[key].headline}
+              image={this.state.cards[key].image}
+              headline={this.state.cards[key].headline}
             />
           ))}
         </div>

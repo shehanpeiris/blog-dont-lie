@@ -5,9 +5,9 @@ class Ablock extends React.Component {
   render() {
     return (
       <div className="a-block">
-        <img className="a-block-image" src={Virgil} alt="Virgil"></img>
+        <img className="a-block-image" src={this.props.image} alt="Virgil"></img>
         <section className="a-block-text">
-          <h1>The Brilliance of Virgil van Dijk</h1>
+          <h1>{this.props.headline}</h1>
           <p>Calm as you like, he's Virgil van Dijk. The centre-back has emerged as one of the world's best with all-around brilliance that anchors the Liverpool defense.</p>
         </section>
       </div>
