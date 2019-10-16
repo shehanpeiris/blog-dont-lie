@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Ablock from "./components/Ablock";
 import Card from "./components/Card";
 import base from "./base";
+import All_influential_team from "./components/posts/1-all-influential-team/1-all-influential-team";
 
 class App extends React.Component {
   state = {
@@ -45,6 +46,7 @@ class App extends React.Component {
             />
           ))}
         </div>
+        <All_influential_team />
       </div>
     );
   }
