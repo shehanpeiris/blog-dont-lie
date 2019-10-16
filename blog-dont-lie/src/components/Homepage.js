@@ -31,7 +31,11 @@ class Homepage extends React.Component {
   render() {
     return (
       <div className="App">
-        <Ablock image={this.state.ablock.image} headline={this.state.ablock.headline} />
+        <Ablock 
+          image={this.state.ablock.image}
+          headline={this.state.ablock.headline}
+          link={this.state.ablock.link}
+        />
         <div className="card-wrapper">
           {Object.keys(this.state.cards).map(key => (
             <Card
