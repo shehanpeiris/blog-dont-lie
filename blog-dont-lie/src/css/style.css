@@ -102,8 +102,8 @@ body {
 }
 
 .a-block-link {
-  display: block;
   text-decoration: none;
+  color: #333333;
 }
 
 .a-block:hover {

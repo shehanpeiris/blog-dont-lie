@@ -5,7 +5,7 @@ class Ablock extends React.Component {
 
   render() {
     return (
-      <Link to={this.props.link}>
+      <Link to={this.props.link} className="a-block-link">
         <div className="a-block">
           <img className="a-block-image" src={this.props.image} alt="Virgil"></img>
           <section className="a-block-text">
