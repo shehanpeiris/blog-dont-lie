@@ -6,8 +6,12 @@ class Card extends React.Component {
     return (
       <div className="card">
         <img className="card-image" src={this.props.image} alt="Virgil"></img>
-        <h2 className="card-hed">{this.props.headline}</h2>
-        {/* <p>Exploring how VVD's all-around brilliance anchors the Liverpool defense.</p> */}
+        <div className="card-hed">
+          <div className="card-hed-text">{this.props.headline}</div>
+        </div>
+        <div className="card-hover">
+          <div className="card-hover-blurb">Exploring how VVD's all-around brilliance anchors the Liverpool defense.</div>
+        </div>
       </div>
     )
   };
