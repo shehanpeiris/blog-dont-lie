@@ -106,8 +106,8 @@ body {
   color: #333333;
 }
 
-.a-block:hover {
-  background-color: #333333;
+.a-block:hover .a-block-image{
+  border-color: #f7be16;
 }
 
 .a-block-image {
@@ -152,8 +152,8 @@ body {
   display: flex;
 }
 
-.card:hover {
-  background-color: #333333;
+.card:hover .card-image {
+  border: 10px solid #f7be16;
 }
 
 .card-image {

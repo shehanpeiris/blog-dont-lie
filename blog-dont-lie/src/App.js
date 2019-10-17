@@ -1,7 +1,10 @@
 import React from 'react';
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
-import Router from "./components/Router";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Homepage from "./components/Homepage";
+import All_influential_team from "./components/posts/1-all-influential-team/1-all-influential-team";
+
 // import Ablock from "./components/Ablock";
 // import Card from "./components/Card";
 // import base from "./base";
@@ -35,9 +38,19 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header />
+        <BrowserRouter>
+          <Header />
+          <Navbar />
+          <Switch>
+              <Route exact path="/" component={Homepage} />
+              <Route exact path="/1-all-influential-team" component={All_influential_team} />
+          </Switch>
+        </BrowserRouter>
+        
+        
+        {/* <Header />
         <Navbar />
-        <Router />
+        <Router /> */}
         {/* <Ablock image={this.state.ablock.image} headline={this.state.ablock.headline} />
         <div className="card-wrapper">
           {Object.keys(this.state.cards).map(key => (
