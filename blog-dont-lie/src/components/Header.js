@@ -1,10 +1,14 @@
 import React from "react";
 import banner from "./images/headerv3.png";
+import Navbar from "./Navbar";
 
-class Header extends React.Component {
+class Header extends React.Component { 
   render() {
     return (
-      <img className="banner-image" src={banner} />
+      <div className="header">
+        <img className="banner-image" src={banner} />
+        <Navbar />
+      </div>
     )
   };
 };

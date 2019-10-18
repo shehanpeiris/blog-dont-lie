@@ -22,11 +22,16 @@ body {
   color: white;
 } */
 
+.header {
+  position: fixed;
+  top: 0px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
 
 .banner-image {
   height: 15vh;
-  margin-left: 50%;
-  transform: translateX(-50%);
 }
 
 /* Navbar Styling */
@@ -95,6 +100,15 @@ body {
   color: white;
 }
 
+/* =========================== */
+/* HOMEPAGE CSS */
+/* =========================== */
+
+.App {
+  margin-top: calc(15vh + 100px);
+}
+
+
 /* A-Block CSS */
 /* =========================== */
 .a-block {
@@ -145,6 +159,7 @@ body {
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
+  margin-bottom: 250px;
 }
 
 .card {
@@ -153,6 +168,7 @@ body {
   padding: 2em;
   position: relative;
   display: flex;
+  z-index: -1;
 }
 
 .card-image {
