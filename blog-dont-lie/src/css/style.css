@@ -25,13 +25,21 @@ body {
 .header {
   position: fixed;
   top: 0px;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
+  background: black;
 }
 
 
 .banner-image {
   height: 15vh;
+  min-height: 50px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  transition: 0.75s ease;
+}
+
+.banner-hidden {
+  height: 50px;
 }
 
 /* Navbar Styling */
