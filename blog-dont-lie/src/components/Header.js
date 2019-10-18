@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "./images/header.png";
+import banner from "./images/headerv3.png";
 
 class Header extends React.Component {
   render() {

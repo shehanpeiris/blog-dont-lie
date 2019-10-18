@@ -23,13 +23,16 @@ body {
   color: white;
 } */
 
+
 .banner-image {
   height: 15vh;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Navbar Styling */
 .nav{
-  border:1px solid #f7be16;
+  border: 1px solid #f7be16;
   border-width:1px 0;
   list-style:none;
   margin:0;
