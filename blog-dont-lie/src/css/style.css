@@ -231,7 +231,7 @@ body {
 /* Blog Post Style */
 
 .blog-post {
-  width: 37%;
+  width: 40%;
   text-align: justify;
   margin: 80px auto;
 }
@@ -249,7 +249,10 @@ body {
   font-size: 1.5em;
 }
 
-
+.embedded-tweet {
+  display: flex;
+  justify-content: center;
+}
 
 /* .a-block {
   margin-top: 35px;

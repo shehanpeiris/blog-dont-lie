@@ -1,9 +1,16 @@
 import React from "react";
+import {TwitterTweetEmbed} from "react-twitter-embed";
+
 
 const All_influential_team = () => (
   <div className="blog-post">
     <h1>My All-Influential Team</h1>
     <p>A fun, thought-provoking tweet came across my timeline during the dead portion of the NBA offseason and, as I am wont to do, I thought about it for far too long.</p>
+    <div className="embedded-tweet">
+      <TwitterTweetEmbed
+        tweetId={"1166783969628549122"}
+      />
+    </div> 
     <p>I pondered this for a while and even drafted a tweet in response. Upon further reflection, it was an absorbing question with too many good answers for 280 characters to do it justice. Instead, I opted to save it for you, the <s>people of Gotham</s> reader(s) of Blog Don't Lie.</p>
     <p>After much deliberation, I came up with a 9-man rotation. I'm focusing solely on the "influential" part of Justin's question—these are the players that have molded the way I think about basketball.</p>
     <br/>
