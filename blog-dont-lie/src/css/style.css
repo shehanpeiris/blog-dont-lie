@@ -159,6 +159,7 @@ body {
 }
 .a-block-blurb {
   font-size: 20px;
+  line-height: 2em;
 }
 
 /* Article Cards CSS */
