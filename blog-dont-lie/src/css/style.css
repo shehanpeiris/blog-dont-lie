@@ -3,8 +3,6 @@ body {
   font-family: 'Ubuntu', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #ecfcff; */
-  /* background-color: #f8f8ff; */
   background-image: url("../components/images/memphis-mini.png");
 }
 
@@ -131,7 +129,7 @@ body {
 
 .a-block-link {
   text-decoration: none;
-  color: #333333;
+  color: #444444;
 }
 
 .a-block:hover .a-block-image{
@@ -182,9 +180,14 @@ body {
   /* z-index: -1; */
 }
 
+.card-link {
+  text-decoration: none;
+  color: #444444;
+}
+
 .card-image {
   width: 100%;
-  height: auto;
+  height: 100%;
   border: 5px solid #293462;
   border-radius: 40px;
   filter: brightness(60%);
