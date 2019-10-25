@@ -31,9 +31,11 @@ const Lowry_iguodala = () => (
         height: 0
       }}
     >
-      <iframe style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%"}} src="https://www.youtube.com/embed/X7sYnD8xF9M" frameborder="0"  allowfullscreen></iframe>
+      <iframe style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "5px solid #293462", borderRadius: "40px"}} src="https://www.youtube.com/embed/X7sYnD8xF9M" frameborder="0"  allowfullscreen></iframe>
     </div>
-    
+    <br/>
+    <br/>
+    <p>For Iguodala's Warriors tenure or Lowry's 2018-19 season, neither player was at their peak in terms of physical tools or statistical production. Nevertheless, we saw the best version of them because their roles were optimized like never before. Iguodala and Lowry are two of the smartest players I've ever watched, and it felt so fulfilling as a fan to watch both of them find their ideal basketball ecosystems.</p>
   </div>
 );
 

@@ -12,7 +12,7 @@ class Card extends React.Component {
             <div className="card-hed-text">{this.props.headline}</div>
           </div>
           <div className="card-hover">
-            <div className="card-hover-blurb">Exploring how VVD's all-around brilliance anchors the Liverpool defense.</div>
+            <div className="card-hover-blurb">{this.props.blurb}</div>
           </div>
         </Link>
       </div>
