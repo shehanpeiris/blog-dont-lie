@@ -221,8 +221,8 @@ body {
 }
 
 .card:hover .card-image {
-  border: 10px solid #f7be16;
-  opacity: 0.3;
+  border: 5px solid #f7be16;
+  opacity: 0.2;
 }
 
 .card:hover .card-hover {
@@ -239,7 +239,7 @@ body {
 .blog-post {
   width: 40%;
   text-align: justify;
-  margin: 80px auto;
+  margin: 50px auto 200px auto;
   color: #444444;
 }
 
@@ -260,6 +260,21 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.post-full-width-image {
+  width: 100%;
+  height: auto;
+  border: 5px solid #f7be16;
+  border-radius: 40px;
+  margin-bottom: 2.5vh;
+}
+
+/* .youtube-embed-responsive-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25;
+  height: 0
+} */
 
 /* .a-block {
   margin-top: 35px;
