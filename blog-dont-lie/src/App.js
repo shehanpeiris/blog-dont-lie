@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./components/Header";
 // import Navbar from "./components/Navbar";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import Homepage from "./components/Homepage";
 import All_influential_team from "./components/posts/1-all-influential-team/1-all-influential-team";
 import Lowry_iguodala from "./components/posts/2-lowry-iguodala/2-lowry-iguodala";
@@ -12,6 +13,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <BrowserRouter>
+          <ScrollToTop />
           <Header />
           {/* <Navbar /> */}
           <Switch>
