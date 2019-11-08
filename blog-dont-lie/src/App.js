@@ -7,6 +7,7 @@ import Homepage from "./components/Homepage";
 import All_influential_team from "./components/posts/1-all-influential-team/1-all-influential-team";
 import Lowry_iguodala from "./components/posts/2-lowry-iguodala/2-lowry-iguodala";
 import Luka_trae from "./components/posts/3-luka-trae/3-luka-trae";
+import Lpdl_nov7 from "./components/posts/4-lpdl-nov-7/4-lpdl-nov-7";
 
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
               <Route exact path="/1-all-influential-team" component={All_influential_team} />
               <Route exact path="/2-lowry-iguodala-bliss" component={Lowry_iguodala} />
               <Route exact path="/3-luka-trae-one-pass-away" component={Luka_trae} />
+              <Route exact path="/4-lpdl-danny-green-league-pass-kyle-oquinn" component={Lpdl_nov7} />
           </Switch>
         </BrowserRouter>
       </div>

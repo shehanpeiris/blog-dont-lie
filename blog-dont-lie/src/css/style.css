@@ -250,10 +250,16 @@ body {
 
 .blog-post h1 {
   font-size: 2.5em;
+  text-align: center;
 }
 
 .blog-post h3 {
   font-size: 1.5em;
+}
+
+.blog-post li {
+  font-size: 1.17em;
+  line-height: 1.8em;
 }
 
 .embedded-tweet {
