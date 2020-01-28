@@ -10,14 +10,14 @@ const Futbol_to_NBA = () => (
   <div className="blog-post">
     <h1>5 Things the NBA Should Steal from Futbol</h1>
     <img className="post-full-width-image" src={FeaturedImage} alt="nba-futbol-crossover"/>
-    <p><i>Disclaimer: I have a medical condition whereby saying/writing the word "soccer" make me projectile vomit everywhere. I was born in England, so it's "football". I live in America where there's a different "football". To avoid confusion and keep my keyboard vomit-free, soccer will hereafter be called "futbol".</i></p>
+    <p><i>Disclaimer: I have a medical condition whereby saying/writing the word "soccer" makes me projectile vomit everywhere. I was born in England, so it's "football". I live in America where there's a different "football". To avoid confusion and keep my keyboard vomit-free, soccer will hereafter be called "futbol".</i></p>
     <br/>
     <p>Over the past year, I've rediscovered my love for futbol. After Michael Jordan retired in 1998, my basketball fandom waned and I dove headfirst (and then rolled 17 times like Neymar Jr.) into the Premier League. Eventually, my futbol interest dipped as I resumed my unhealthy obsession with the NBA. But now, like MJ in 1995, "I'M BACK" to loving futbol again.</p>
-    <p>In the process of watching a good bit of futbol over the past year, the contrast to basketball has been enjoyable—and in some cases, cause for envy. I present to you the top 5 things I want the NBA to steal from the world of futbol.</p>
+    <p>In the process of watching a good bit of futbol over the past year, the contrast to basketball has been enjoyable and, in some cases, cause for envy. I present to you the top 5 things I want the NBA to steal from the world of futbol.</p>
     <br/>
     <h3>5. Games Starting On Time</h3>
     <img className="post-full-width-image" src={ShotClock} alt="nba-shot-clock"/>
-    <p>It's hard to believe, I know, but in the Premier League, if a game is scheduled to start at 2pm, kick-off happens at 2:00 pm. What a bizarre, foreign concept for an NBA fan, where an 8pm game doesn't actually start until 8:10 or 8:15.</p>
+    <p>It's hard to believe, I know, but in the Premier League, if a game is scheduled to start at 2:00 pm, kick-off happens exactly at 2:00 pm. What a bizarre, foreign concept for an NBA fan, where an 8:00 pm game doesn't actually start until 8:10 or 8:15.</p>
     <p>In the world of futbol, all the pre-game stuff is completed...pre-game and the game itself begins as listed on the schedule. Consider me jealous.</p>
     <br/>
     <h3>4. Video Assistant Referee (VAR)</h3>
@@ -34,7 +34,7 @@ const Futbol_to_NBA = () => (
     <p>For example, Liverpool have a 22-year-old right winger named Harry Wilson. Wilson is young, talented, and possesses a dangerous left boot, but he would be hard-pressed to find much playing time at Liverpool right now given the talent on the squad and their lofty aspirations. So Liverpool loaned Wilson to another Premier League club (AFC Bournemouth).</p>
     <p>Liverpool benefits by promoting the development of a young player while retaining control of his future. Wilson benefits by getting consistent playing time but still having a discernible path to playing at his preferred club (Liverpool). And Bournemouth benefit by adding someone to their team at a low financial cost who can do things <a href="https://youtu.be/2XoxA2CRptU?t=39" target="blank">like this</a>.</p>
     <p>How would loans work in an NBA context? Maybe they would involve young prospects like Harry Wilson, but the juiciest examples would occur at the other end of the talent spectrum with someone like Bradley Beal, for example.</p>
-    <p>The Wizards have been fun, but they're treading water until John Wall gets back next season. Beal trade rumors were swirling (before a pre-season extension made Beal untradeable this season), but did it really make sense for the Wizards to lose him permanently? Beal is REALLY good and is still only 26 years old. If Washington traded him,they would be lucky to get a player (present or future) as good as Beal. What if there were a middle ground where the Wizards could get some assets from a team like the Milwaukee Bucks to rent Beal for just this season?</p>
+    <p>The Wizards have been fun, but they're treading water until John Wall gets back next season. Beal trade rumors were swirling (before a pre-season extension made Beal untradeable this season), but did it really make sense for the Wizards to lose him permanently? Beal is REALLY good and is still only 26 years old. If Washington traded him, they would be lucky to get a player (present or future) as good as Beal. What if there were a middle ground where the Wizards could get some assets (to aid their rebuild) from a team like the Milwaukee Bucks to rent Beal for just this season?</p>
     <p>Developing a real loan structure that works for all parties is very complicated and will never happen. But it's a fun hypothetical to daydream about.</p>
     <br/>
     <h3>2. Referees Playing an "Advantage"</h3>
@@ -42,9 +42,9 @@ const Futbol_to_NBA = () => (
     <p>In futbol, if a foul is committed but the wronged team still has the ball in a potential scoring situation, the referee can signal an advantage and allow things to play out for a short time (~5 seconds). If the team in possession quickly loses the ball, the ref retroactively calls the foul and awards the free kick.</p>
     <p>This enforces the spirit of the foul rules: fouls should never help the defense. The advantage rule prevents defenses from committing fouls in disadvantageous situations to get out of jail.</p>
     <p>It would be a major philosophical change for the NBA to adopt an "Advantage"—one that would quickly become nightmarish given the sheer number of events and potential advantage situations crammed into 48 minutes of NBA basketball.</p>
-    <p>What I'm proposing is the adoption of the "advantage" rule strictly as it pertains to "take" fouls to prevent fast breaks. Clear-path fouls (and the unending reviews that accompany them) are stupid. It doesn't matter whether the defender is ahead of or behind the offensive player.</p>
+    <p>What I'm proposing is the adoption of the "advantage" rule strictly as it pertains to "take" fouls on fast breaks. Clear-path fouls (and the unending reviews that accompany them) are stupid. It doesn't matter whether the defender is ahead of or behind the offensive player.</p>
     <p>What matters is that the current system allows for a legal play where a defender can commit a foul to drastically swing the pendulum from conceding "the most efficient play type in basketball" (transition) to "conceding a regular half-court possession", whilst simultaneously removing one of the most exciting plays in basketball (the fast break).</p>
-    <p>Not on my watch. If there's a fast-break and the defender commits a ticky-tac reach-in foul where Giannis Antetokounmpo is still barreling towards the rim, the refs should have the discretion to play an advantage, let the offense team carry on with their possession, and let the fans enjoy a thunderous Giannis jam.</p>
+    <p>Not on my watch. If there's a fast-break and the defender commits a ticky-tac reach-in foul that barely impedes Giannis Antetokounmpo from rampaging towards the rim, the refs should have the discretion to play an advantage, let the offense carry on with their possession, and let the fans enjoy a thunderous Giannis jam.</p>
     <br/>
     <h3>1. Fan Songs</h3>
     <img className="post-full-width-image" src={FanSong} alt="futbol-crowd"/>
