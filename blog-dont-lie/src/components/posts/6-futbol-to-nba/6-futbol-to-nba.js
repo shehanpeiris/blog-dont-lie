@@ -1,9 +1,9 @@
 import React from "react";
 import FeaturedImage from "./images/nba-soccerball.jpg";
-import ShotClock from ".images/shot-clock.jpg";
+import ShotClock from "./images/shot-clock.jpg";
 import VAR from "./images/var.jpg";
 import FutbolLoan from "./images/futbol-loan.jpg";
-import Advantage from ".images/advantage.jpg";
+import Advantage from "./images/advantage.jpg";
 import FanSong from "./images/fan-song.jpg";
 
 const Futbol_to_NBA = () => ( 
@@ -11,6 +11,7 @@ const Futbol_to_NBA = () => (
     <h1>5 Things the NBA Should Steal from Futbol</h1>
     <img className="post-full-width-image" src={FeaturedImage} alt="nba-futbol-crossover"/>
     <p><i>Disclaimer: I have a medical condition whereby saying/writing the word "soccer" make me projectile vomit everywhere. I was born in England, so it's "football". I live in America where there's a different "football". To avoid confusion and keep my keyboard vomit-free, soccer will hereafter be called "futbol".</i></p>
+    <br/>
     <p>Over the past year, I've rediscovered my love for futbol. After Michael Jordan retired in 1998, my basketball fandom waned and I dove headfirst (and then rolled 17 times like Neymar Jr.) into the Premier League. Eventually, my futbol interest dipped as I resumed my unhealthy obsession with the NBA. But now, like MJ in 1995, "I'M BACK" to loving futbol again.</p>
     <p>In the process of watching a good bit of futbol over the past year, the contrast to basketball has been enjoyable—and in some cases, cause for envy. I present to you the top 5 things I want the NBA to steal from the world of futbol.</p>
     <br/>
@@ -31,7 +32,7 @@ const Futbol_to_NBA = () => (
     <p>In futbol, there are two major types of player movement: transfers and loans. Transfers are functionally similar to NBA trades, but instead of players going both ways, it's normally an exchange of cash (a transfer fee) for player, and the player makes a permanent move from Team A to Team B.</p>
     <p>Futbol also provides the option of loaning a player to another team. This typically happens because a major team wants to find playing time for a younger prospect who isn't good enough to earn it in his current situation.</p>
     <p>For example, Liverpool have a 22-year-old right winger named Harry Wilson. Wilson is young, talented, and possesses a dangerous left boot, but he would be hard-pressed to find much playing time at Liverpool right now given the talent on the squad and their lofty aspirations. So Liverpool loaned Wilson to another Premier League club (AFC Bournemouth).</p>
-    <p>Liverpool benefits by promoting the development of a young player while retaining control of his future. Wilson benefits by getting consistent playing time but still having a discernible path to playing at his preferred club (Liverpool). And Bournemouth benefit by adding someone to their team at a low financial cost who can do things [like this](https://youtu.be/2XoxA2CRptU?t=39).</p>
+    <p>Liverpool benefits by promoting the development of a young player while retaining control of his future. Wilson benefits by getting consistent playing time but still having a discernible path to playing at his preferred club (Liverpool). And Bournemouth benefit by adding someone to their team at a low financial cost who can do things <a href="https://youtu.be/2XoxA2CRptU?t=39" target="blank">like this</a>.</p>
     <p>How would loans work in an NBA context? Maybe they would involve young prospects like Harry Wilson, but the juiciest examples would occur at the other end of the talent spectrum with someone like Bradley Beal, for example.</p>
     <p>The Wizards have been fun, but they're treading water until John Wall gets back next season. Beal trade rumors were swirling (before a pre-season extension made Beal untradeable this season), but did it really make sense for the Wizards to lose him permanently? Beal is REALLY good and is still only 26 years old. If Washington traded him,they would be lucky to get a player (present or future) as good as Beal. What if there were a middle ground where the Wizards could get some assets from a team like the Milwaukee Bucks to rent Beal for just this season?</p>
     <p>Developing a real loan structure that works for all parties is very complicated and will never happen. But it's a fun hypothetical to daydream about.</p>
@@ -62,6 +63,7 @@ const Futbol_to_NBA = () => (
     >
       <iframe style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "5px solid #293462", borderRadius: "40px"}} src="https://www.youtube.com/embed/uOFMov4RR_Q" frameborder="0"  allowfullscreen></iframe>
     </div>
+    <br/>
     <p>The closest examples I can think of in the NBA are:</p>
     <p>"DEEEE-TROIT BASKETBAAAALLLLL" for the mid-2000s Pistons;</p>
     <div
@@ -75,6 +77,7 @@ const Futbol_to_NBA = () => (
     >
       <iframe style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "5px solid #293462", borderRadius: "40px"}} src="https://www.youtube.com/embed/CaIvvpjjzFQ" frameborder="0"  allowfullscreen></iframe>
     </div>
+    <br/>
     <p>and the Miami Heat crowd singing "Seven Nation Army".</p>
     <div
       className="video"
@@ -87,7 +90,7 @@ const Futbol_to_NBA = () => (
     >
       <iframe style={{position: "absolute", top: 0, left: 0, width: "100%", height: "100%", border: "5px solid #293462", borderRadius: "40px"}} src="https://www.youtube.com/embed/bsWdGiofN_M" frameborder="0"  allowfullscreen></iframe>
     </div>
-    <p>There is an obvious difference between the slower pace of futbol and the end-to-end nature of basketball. But can you just imagine a crowd singing/chanting in unison as the Milwaukee Bucks or Los Angeles Lakers are uncorking one of their dominant in-game runs? The crowd atmosphere in futbol can send tingles down your spine. Hopefully we can get there in the NBA one day.</p>
+    <p>There is an obvious difference between the slower pace of futbol and the end-to-end nature of basketball. But can you just imagine a crowd singing/chanting in unison as the Milwaukee Bucks or Los Angeles Lakers are uncorking one of their dominant in-game runs? NBA crowds are great, but there's limited variation between arenas (unlike futbol). Hopefully we can get there in the NBA one day.</p>
     <br/>
     <br/>
   </div>
