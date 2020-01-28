@@ -9,7 +9,7 @@ import Lowry_iguodala from "./components/posts/2-lowry-iguodala/2-lowry-iguodala
 import Luka_trae from "./components/posts/3-luka-trae/3-luka-trae";
 import Lpdl_nov7 from "./components/posts/4-lpdl-nov-7/4-lpdl-nov-7";
 import Phoenix_suns from "./components/posts/5-phoenix-suns/5-phoenix-suns";
-
+import Futbol_to_NBA from "./components/posts/6-futbol-to-nba/6-futbol-to-nba";
 
 class App extends React.Component {
   render() {
@@ -26,6 +26,7 @@ class App extends React.Component {
               <Route exact path="/3-luka-trae-one-pass-away" component={Luka_trae} />
               <Route exact path="/4-lpdl-danny-green-league-pass-kyle-oquinn" component={Lpdl_nov7} />
               <Route exact path="/5-phoenix-suns-hot-start" component={Phoenix_suns} />
+              <Route exact path="/6-futbol-nba-crossover" component={Futbol_to_NBA} />
           </Switch>
         </BrowserRouter>
       </div>
